@@ -15,7 +15,7 @@ export const CONTENT = {
   topLinksTitle: 'Top links',
   topLinksNav: 'Top links',
   trashNav: 'Trash',
-  settingsNav: 'Account & integrations',
+  settingsNav: 'Account',
   accountSettingsTitle: 'Account, settings & integrations',
   signInTitle: 'Sign in',
   signupTitle: 'Register',
