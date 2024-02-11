@@ -1,12 +1,14 @@
 import { RequestOrder } from './types/api';
 
-export const REPO_URL = 'https://github.com/mrmartineau/next-supabase-starter';
-
 export const ALLOW_SIGNUP = false;
+export const SETTINGS = {
+  ALLOW_SIGNUP: false,
+};
 export const CONTENT = {
   appName: 'Starter',
   appNameLong: 'Next.js starter with Supabase',
   titleSeparator: ' — ',
+  appNav: 'App',
   dashboardNav: 'Dashboard',
   feedTitle: 'Feed',
   feedNav: 'Feed',
@@ -43,6 +45,7 @@ export const createTitle = (pageName?: string) => {
 // App Routes
 export const ROUTES = {
   HOME: '/',
+  APP: '/app',
   DASHBOARD: '/dashboard',
   FEED: '/feed',
   SEARCH: '/search',
@@ -58,11 +61,6 @@ export const API_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'Content-Type, Authorization',
   'Content-Type': 'application/json',
-};
-
-// Default payload/responses
-export const RESP_USER_GUEST = {
-  guest: true,
 };
 
 export const DEFAULT_API_RESPONSE_LIMIT = 20;
