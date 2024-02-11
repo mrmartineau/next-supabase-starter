@@ -1,0 +1,15 @@
+{
+  "name": "Next Supabase Starter",
+  "short_name": "NSS",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "hsl(60 6% 9%)",
+  "description": "Starter template",
+  "icons": [
+    {
+      "src": "apple-icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ]
+}
